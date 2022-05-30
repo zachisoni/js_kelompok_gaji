@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penghitung Gaji</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <div class="page">
+            <div class="title">Penghitungan Gaji</div>
+            <hr size="5" color="">
+            <div class="isi">
+                <input type="number" min="0" id="jam" placeholder="Jam Kerja per minggu">
+                <br> <br>
+                <input type="number" min="0" id="terlambat" placeholder="Jumlah Hari Terlambat"><br> <br>
+
+                <div class="tap">
+                    <input type="button" value="Hitung Gaji" class="btn" onclick="HitungGaji()">
+                    <input type="reset" class="btn" onclick="Reset()">
+                </div>
+                <p class="desc" id="Hasil"></p>
+                <p class="desc" id="Catatan">Jam kerja lebih dari 40 jam akan mendapat bonus sebesar Rp 25000 per
+                    kelebihan jam</p>
+                <p class="desc" id="Catatan2">Jam kerja lebih dari 40 jam dan tidak ada keterlambatan akan mendapat
+                    hadiah sebesar
+                    10% gaji</p>
+                <p class="desc" id="Catatan3">Jam kerja kurang dari 40 jam akan mendapat pengurangan sebesar Rp 50000
+                    per kekurangan
+                    jam</p>
+            </div>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
