@@ -9,4 +9,4 @@ Anggota : <br>
 </ol>
 
 # To View the Web, visit : <br>
-
+https://m-asaduddin.github.io/js_kelompok_gaji/
