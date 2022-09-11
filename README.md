@@ -1,4 +1,5 @@
 # Tugas Js Kelompok Gaji
+Aplikasi Javascript untuk menghitung gaji
 Tugas Kelompok Pemrograman Web Dasar Materi Javascript. Kelompok D. <br>
 Anggota : <br>
 <ol>
